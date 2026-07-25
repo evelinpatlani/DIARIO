@@ -140,6 +140,8 @@ Este módulo controla la creación de nuevas cartas.
 #### RNF-05 Seguridad
 
 - Las contraseñas nunca deberán almacenarse en texto plano.
+- Protección de contraseñas para que nadie más pueda acceder al contenido del usuario
+bloquear la aplicación en caso de inactividad por parte del usuario para que nadie pueda acceder a su diario
 
 ---
 
@@ -151,7 +153,9 @@ Este módulo controla la creación de nuevas cartas.
 
 #### RNF-07 Rendimiento
 
-- Las operaciones principales de la aplicación deberán responder de forma fluida y sin retrasos perceptibles para el usuario.
+- La aplicación debe responder en menos de 3 segundos
+
+- La aplicación debe consumir poca memori ram y cpu  para no afectar el equipo
 
 ---
 
